@@ -17,6 +17,14 @@
   <img alt="OriginSix" src=".github/preview.png" width="100%">
 </p>
 
+## 📝 Aulas
+
+- Aula 1 - Liftoff
+- Aula 2 - Maximum Speed
+- Aula 3 - In Orbit
+- Aula 4 - Landing
+- Aula 5 - Surface Exploration
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -42,7 +50,7 @@ OriginSix é uma página institucional no formato One Page, responsiva, para usa
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1009807319507822993/Origin-Six). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/fMrFOBG7t2ZSyERx4aRpcO/Origin-Six-(Community)?node-id=0%3A1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 📝 Licença
 
