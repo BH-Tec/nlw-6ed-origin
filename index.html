@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OriginSix</title>
+    <!-- Icones -->
+    <link rel="stylesheet" href="./assets/style.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="./css/style.css">
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,40 +16,137 @@
 
 </head>
 <body>
-
-<header id="header">
-    <nav class="container">
-        <a class="logo" href="">bruno<span>henrique</span>.</a>
-        <div>...</div>
-    </nav>
-</header>
+    <header id="header">
+        <nav class="container">
+          <a class="logo" href="#">bruno<span>henrique</span>.</a>
+          <!-- menu -->
+          <div class="menu">
+            <ul class="grid">
+              <li><a class="title" href="#home">Início</a></li>
+              <li><a class="title" href="#about">Sobre</a></li>
+              <li><a class="title" href="#services">Serviços</a></li>
+              <li><a class="title" href="#testimonials">Depoimentos</a></li>
+              <li><a class="title" href="#contact">Contato</a></li>
+            </ul>
+          </div>
+          <!-- /menu -->
+          <div class="toggle icon-menu"></div>
+          <div class="toggle icon-close"></div>
+        </nav>
+      </header>
 
 <main>
-    <section class="section" id="home">
-        <div class="container grid">
-            <div class="image">
-                <img src="https://media.istockphoto.com/photos/shot-of-a-handsome-young-barber-standing-alone-in-his-salon-picture-id1365608023?b=1&k=20&m=1365608023&s=170667a&w=0&h=hkcbZSXI3AXG-a44bFrjdHFKF-XRwBGUbVx5NSkur3s=" alt="Imagem 1">
-            </div>
-            <div class="text">
-                <h1>Saúde natural para os seus cabelos</h1>
-                <p>Saúde natural para os seus cabelos
-                Um salão exclusivo em São Paulo, especializado em tratamentos naturais.
-                Agendar um horário</p>
-                <a class="button" href="">agendar um horario</a>
-            </div>
-        </div>       
-    </section>
 
-    <div class="divider-1">
+<!-- home -->
+<section class="section" id="home">
+    <div class="container grid">
+        <div class="image">
+            <!-- alterar foto -->
+            <img src="./assets/image/image2.jpg" alt="">
+        </div>
+        <div class="text">
+            <h2 class="title">Olá, sou Bruno Henrique</h2>
+            <p>
+                Analista de TI e Desenvolvedor Web
+            </p>
+            <a class="button" href="">Meu curriculo .pdf</a>
+        </div>
+    </div>       
+</section>
+<!-- /home -->
 
+<!-- divisor de section 1 -->
+<div class="divider-1"></div>
+<!-- /divisor de section 1 -->
+
+<!-- about -->
+<section class="section" id="about">
+    <div class="container grid">
+        <div class="image">
+            <!-- alterar foto -->
+            <img src="./assets/image/image1.png" alt="">
+        </div>
+        <div class="text">
+            <h2 class="title">Sobre mim</h2>
+            <p>
+                Trabalhei quase 4 anos na Work Line Informática, prestando suporte técnico ao usuário, manutenção preventiva e corretiva de microcomputadores e impressoras. Infraestrutura de redes e configuração de ativos de rede (servers, switchs, routers e centrais telefônicas).
+            </p>
+            <br>
+            <p>
+                Em busca de novos desafios, passei 2 anos na Defensoria Pública da Bahia (DPE-Ba), prestando suporte técnico e auxiliando o setor de Coordenação de Modernização e Informática (CMO).
+            </p>
+            <br>
+            <p>
+                Em parceria com a Atento no projeto de Home Office, dos sites Uruguai e Cabula, durante a pandemia da COVID-19. Após 3 meses de prestação de serviços como terceirizado, fui contratado como analista de microinformática junior, para o site Uruguai. Como funcionario, prestei serviço de Agosto de 2020 até Março de 2022.
+            </p>
+            <br>
+            <p>
+                Em março de 2022, recebi uma proposta da Spread Tecnologia para trabalhar na função de desenvolvedor Java.
+            </p>
+        </div>
     </div>
+</section>
+<!-- /about -->
 
-    <section class="section" id="home">
-            <div class="text">
-                <p>outra seção</p>
-            </div>
+<!-- divisor de section 2 -->
+<div class="divider-2"></div>
+<!-- /divisor de section 2 -->
+
+<!-- services -->
+<!-- alterar para experiencias profissionais e formação academica -->
+<section class="section" id="services">
+    <div class="container grid">
+        <header>
+        <h2 class="title">Serviços</h2>
+        <p class="subtitle">
+            Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+            conquistou clientes de inúmeros países com seus tratamentos
+            exclusivos e totalmente naturais
+        </p>
+        </header>
+        <div class="cards grid">
+        <div class="card">
+            <i class="icon-facebook"></i>
+            <h3 class="title">Terapia capilar</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            distinctio neque blanditiis, dolorem aperiam nulla explicabo
+            asperiores
+            </p>
+        </div>
+        <div class="card">
+            <i class="icon-instagram"></i>
+            <h3 class="title">Cortes</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            distinctio neque blanditiis, dolorem aperiam nulla explicabo
+            asperiores
+            </p>
+        </div>
+        <div class="card">
+            <i class="icon-mail"></i>
+            <h3 class="title">Tratamentos</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            distinctio neque blanditiis, dolorem aperiam nulla explicabo
+            asperiores
+            </p>
+        </div>
+        </div>
+    </div>
     </section>
+<!-- /services -->
+
+<!-- divisor de section 1 -->
+<div class="divider-1"></div>
+<!-- /divisor de section 1 -->
+
+
+
+
 </main>
+
+<script src="./js/main.js"></script>
 
 </body>
 </html>
