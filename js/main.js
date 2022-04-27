@@ -18,10 +18,10 @@ for (const link of links) {
 }
 
 // mudar o header da pagina quando der scroll
-const header = document.querySelector('#header')
-const navHeight = header.offsetHeight
+function changeHeaderWhenScroll() {
+    const header = document.querySelector('#header')
+    const navHeight = header.offsetHeight
 
-window.addEventListener('scroll', function () {
     if (window.scrollY >= navHeight) {
         //maior que a altura do header
         header.classList.add('scroll')
@@ -29,7 +29,7 @@ window.addEventListener('scroll', function () {
         //menor que a altura do header
         header.classList.remove('scroll')
     }
-})
+}
 
 // Testimonials swiper
 const swiper = new Swiper('.swiper-container', {
@@ -47,9 +47,9 @@ const scrollReveal = ScrollReveal({
     distance: '30px',
     duration: 700,
     reset: true
-  })
+})
   
-  scrollReveal.reveal(
+scrollReveal.reveal(
     `#home .image, #home .text,
     #about .image, #about .text,
     #services header, #services .card,
@@ -57,5 +57,21 @@ const scrollReveal = ScrollReveal({
     #contact .text, #contact .links,
     footer .brand, footer .social
     `,
-    { interval: 100 }
-  )
+{ interval: 100 }
+)
+
+// botão voltar para o topo
+function backToTop() {
+    const backToTopButton = document.querySelector('.back-to-top')
+    if(window.scrollY > 560) {
+        backToTopButton.classList.add('show')
+    } else {
+    backToTopButton.classList.remove('show')
+}
+}
+
+// Rolagem do scrool
+window.addEventListener('scroll', function(){
+    changeHeaderWhenScroll()
+    backToTop()
+})

@@ -19,10 +19,10 @@
 
 ## 📝 Aulas
 
-- Aula 1 - Liftoff
-- Aula 2 - Maximum Speed
-- Aula 3 - In Orbit
-- Aula 4 - Landing
+- Aula 1 - Liftoff ✅
+- Aula 2 - Maximum Speed ✅
+- Aula 3 - In Orbit ✅
+- Aula 4 - Landing ✅
 - Aula 5 - Surface Exploration
 
 ## 🚀 Tecnologias
