@@ -148,11 +148,11 @@ body {
 }
 
 .logo span {
-  color: var(--base-color);
+  color: var(--base-color-second);
 }
 
 .logo-alt span {
-  color: var(--body-color);
+  color: var(base-color-second);
 }
 
 /*====  NAVIGATION ============================ */

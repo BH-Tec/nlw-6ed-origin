@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="OriginSix" src=".github/preview.png" width="100%">
+  <img alt="Work Line" src=".github/preview.png" width="100%">
 </p>
 
 ## 📝 Aulas
@@ -41,6 +41,7 @@ Bibliotecas
 
 Utilitários
 
+- [unsplash](https://unsplash.com/)
 - [randomuser.me](https://randomuser.me/photos)
 - [IconMoon](https://icomoon.io/app/#/select)
 
@@ -50,7 +51,7 @@ OriginSix é uma página institucional no formato One Page, responsiva, para usa
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/fMrFOBG7t2ZSyERx4aRpcO/Origin-Six-(Community)?node-id=0%3A1).
+Baseado no layout do projeto [desse link](https://www.figma.com/file/fMrFOBG7t2ZSyERx4aRpcO/Origin-Six-(Community)?node-id=0%3A1) da missão Origin no NLW #06 da Rocketseat.
 
 ## 📝 Licença
 
